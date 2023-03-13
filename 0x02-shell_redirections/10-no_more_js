@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find . -type f -name "*.js" | while read file; do rm "$file"
+=======
+find . -type f -name '*.js' -exec rm -f {} \;
+>>>>>>> 162a640fe8ae19c88c5bcfd7f6b000346830366b
